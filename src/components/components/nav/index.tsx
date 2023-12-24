@@ -1,7 +1,7 @@
 /** @format */
 
 import "../../style/style.css";
-import logo from "../../images/logo.png";
+import logo from "../../images/logo1.png";
 import {
   Container,
   Nav,

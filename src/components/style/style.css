@@ -51,10 +51,10 @@ nav.left-navbar {
   z-index: 1;
   top: 2;
   left: 0;
+  overflow: auto;
   position: fixed;
   border-right: solid 1px;
   margin-top: 135px;
-  border-color: rgb(158, 156, 153);
 }
 
 .left-navbar ul {
@@ -62,13 +62,34 @@ nav.left-navbar {
   margin: 0;
   padding: 0;
   margin: auto;
+  overflow: auto;
 }
 
 .left-navbar li {
   text-align: center;
-  padding: auto;
+  background-color: aquamarine;
+  overflow: auto;
   height: 100%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  /* padding-top: 100%; */
+  padding-bottom: 100%;
+  border-bottom: 1px solid rgb(158, 156, 153);
+  border-left: 1px solid rgb(158, 156, 153);
+  border-color: rgb(158, 156, 153);
+  justify-content: space-between;
+}
+
+.left-nav-icon {
+  overflow: auto;
+  height: auto;
+  width: 40%;
   padding-top: 100%;
+  color: black;
+}
+
+.left-nav-icon:hover {
+  color: yellow;
 }
 
 nav {

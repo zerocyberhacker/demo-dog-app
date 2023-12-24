@@ -10,53 +10,6 @@ const HomePage = () => {
       <LeftNav />
       <div className='home-content'>
         <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
-        <h1>Today is a good day.</h1>
       </div>
     </>
   );
