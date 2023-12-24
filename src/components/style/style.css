@@ -1,0 +1,145 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik+Doodle+Shadow&display=swap");
+
+.logo-image {
+  width: 100px;
+  height: auto;
+}
+
+div.offcanvas-header {
+  border-bottom: 2px solid;
+  border-color: rgb(109, 113, 113);
+}
+
+.navbar {
+  border-bottom: solid 1px;
+  border-color: rgb(158, 156, 153);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-title {
+  font-size: 150%;
+  font-family: "Rubik Doodle Shadow";
+}
+
+.navbar-mobile-title {
+  font-size: 120%;
+  font-family: "Rubik Doodle Shadow";
+}
+
+.nav-link {
+  text-align: center;
+  font-size: 120%;
+  color: black;
+}
+
+.navbar {
+  background-color: rgb(179, 255, 0);
+}
+
+.navbar-title {
+  color: black;
+}
+
+nav.left-navbar {
+  width: 120px;
+  height: 100%;
+  z-index: 1;
+  top: 2;
+  left: 0;
+  position: fixed;
+  border-right: solid 1px;
+  margin-top: 135px;
+  border-color: rgb(158, 156, 153);
+}
+
+.left-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+}
+
+.left-navbar li {
+  text-align: center;
+  padding: auto;
+  height: 100%;
+  padding-top: 100%;
+}
+
+nav {
+  display: block;
+}
+
+.home-content {
+  padding-top: 135px;
+  padding-left: 120px;
+}
+
+/* Mac 14-ch size */
+@media (min-width: 1200px) {
+  .navbar-mobile-title {
+    font-size: 100%;
+    font-family: "Rubik Doodle Shadow";
+  }
+}
+
+@media (min-width: 996px) and (max-width: 1199px) {
+  .navbar-title {
+    font-size: 130%;
+    font-family: "Rubik Doodle Shadow";
+  }
+  .navbar-mobile-title {
+    font-size: 80%;
+    font-family: "Rubik Doodle Shadow";
+  }
+}
+
+@media (min-width: 768px) and (max-width: 995px) {
+  .navbar-title {
+    font-size: 130%;
+    font-family: "Rubik Doodle Shadow";
+  }
+  .navbar-mobile-title {
+    font-size: 100%;
+    font-family: "Rubik Doodle Shadow";
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar-title {
+    font-size: 130%;
+    font-family: "Rubik Doodle Shadow";
+  }
+  .navbar-mobile-title {
+    font-size: 90%;
+    font-family: "Rubik Doodle Shadow";
+  }
+  .nav-link:hover {
+    border: 5px solid;
+    border-color: rgb(134, 135, 130);
+    font-size: 150%;
+    transition: 0.8s;
+  }
+}
+
+@media (min-width: 52px) and (max-width: 575px) {
+  .navbar-title {
+    font-size: 90%;
+    font-family: "Rubik Doodle Shadow";
+  }
+  .navbar-mobile-title {
+    font-size: 100%;
+    font-family: "Rubik Doodle Shadow";
+  }
+  .nav-link:hover {
+    border: 5px solid;
+    border-color: rgb(134, 135, 130);
+    font-size: 150%;
+    transition: 0.8s;
+  }
+}
